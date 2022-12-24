@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <title>Employee Project</title>
+</head>
+
+<body>
+    
+    <div class="filter">
+        Filter ui cards via their profession<br />
+        <select name="dropdown" id="dropdown">
+            <option disabled selected value="profession">Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select> <br>
+
+        <div id="result"></div>
+
+        <button id="filterBtn" class="btn">Filter</button><br />
+
+        Add a new user<br />
+
+        <div id="details">
+
+            <div class="input">Enter Name<br />
+                <input type="text" id="entername">
+            </div>
+
+            <div class="Input">Enter Profession<br />
+                <input type="text" id="enterprofession">
+            </div>
+
+            <div class="Input">Enter Age<br />
+                <input type="text" id="enterage">
+            </div>
+
+        </div>
+        <button id="Adduser" class="btn">Add User</button>
+    </div>
+
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
